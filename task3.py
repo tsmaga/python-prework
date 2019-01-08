@@ -41,4 +41,6 @@ def maxPathSum(tri, m, n):
     # which stores the maximum sum
     return tri[0][0]
 
-print(maxPathSum(triangle,999,999))
+maxPath = maxPathSum(triangle,999,999)
+
+print("Ścieżka z największą sumą elementów ma sumę {}".format(maxPath))
